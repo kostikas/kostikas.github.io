@@ -3,28 +3,32 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Simple Hover</title>
+  <title>Hovering Snippet</title>
   <style>
-    .hover-button {
-      padding: 12px 24px;
-      background-color: #3498db;
-      color: white;
-      border: none;
-      border-radius: 6px;
-      font-size: 16px;
-      cursor: pointer;
-      transition: background-color 0.3s, color 0.3s;
+    .hover-card {
+      width: 300px;
+      padding: 20px;
+      margin: 50px auto;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      text-align: center;
+      font-family: Arial, sans-serif;
     }
 
-    .hover-button:hover {
-      background-color: #2980b9;
-      color: #e0f7fa;
+    .hover-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
     }
   </style>
 </head>
 <body>
 
-  <button class="hover-button">Hover Me</button>
+  <div class="hover-card">
+    <h2>Hover Me!</h2>
+    <p>This card lifts and casts a deeper shadow when you hover over it.</p>
+  </div>
 
 </body>
 </html>
