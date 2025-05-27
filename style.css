@@ -2,9 +2,9 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
+  padding: 2rem;
   line-height: 1.6;
-  background: #f4f4f4;
+  background: #d3d3d3;
   color: #333;
 }
 
@@ -13,6 +13,16 @@ header {
   color: #fff;
   padding: 2rem;
   text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #0366d6;
 }
 
 section {
@@ -25,7 +35,8 @@ section {
 
 footer {
   text-align: center;
-  padding: 1rem;
+  padding: 3rem;
   background: #333;
-  color: #fff;
+  font-size: 0.9rem;
+  color: #777;
 }
