@@ -70,11 +70,11 @@ a:hover {
 color: #ff6f61;
 }
 
-#about,#contact,#projects a {
+#about a, #contact a, #projects a {
 color: #588c7e;
 font-weight: bold;
 }
 
-#about,#contact,#projects a:hover {
+#about a:hover, #contact a:hover ,#projects a:hover {
 color: #ff6f61;
 font-weight: bold;
