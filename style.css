@@ -14,9 +14,7 @@ color: #2c3e50;
 text-align: center;
 }
 
-* {
-border-radius: 3rem;
-}
+* { border-radius: 3rem; }
 
 header {
 padding: 0.7rem;
@@ -46,28 +44,15 @@ max-width: 70%;
 margin: 1rem auto;
 }
 
-h1 {
-margin: 0.7rem;
-color: #2C3E50;
-}
+h1 { margin: 0.7rem; color: #2C3E50; }
 
-h2 {
-margin: 0.7rem;
-color: #2C3E50;
-}
+h2 { margin: 0.7rem; color: #2C3E50; }
 
-a {
-color: #87bdd8;
-text-decoration: none;
-}
+a { color: #87bdd8; text-decoration: none; }
 
-a:hover {
-color: #ff6f61;
-}
+a:hover { color: #ff6f61; }
 
-nav {
-padding: 5px;
-}
+nav { padding: 5px; }
 
 nav a, #about a, #contact a, #projects a {
 color: #588c7e;
